@@ -1,3 +1,10 @@
+img {
+    max-width:1000px;
+    height: auto;
+}
 
-
-stuff
+.Sirfeitchd:hover {
+    transform-origin: 425px 187px;
+    /*transition: transform 2s;*/
+    transform: scale(4);
+}
