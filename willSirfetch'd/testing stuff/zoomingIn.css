@@ -1,0 +1,13 @@
+div {
+    width: 1280px;
+    height: 720px;
+    border: 1px solid black;
+    background-image: url("Sirfeitch'd on Sirfeitch'd action-1.jpg");
+    background-size: 1280px 720px;
+    transition: all 2.5s ease;
+}
+
+div:active{
+    background-size: 12800px 7200px;
+    background-position: -5480px -2390px;
+}
