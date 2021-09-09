@@ -1,18 +1,25 @@
-body
-{
+body {
     background-color: lightskyblue;
 }
-.Whale{
+
+.whale {
     position: absolute;
-    margin-left: auto;
-    margin-right: auto;
-    top: 150px;
-    transform: translate()
+    bottom:35px;
+    LEFT:50%;
+    WIDTH:250px;
+    HEIGHT:250px;
+    transition: all 2.5s ease;
 }
-.Thats_Plain
-{
+
+.whale:active {
+    transform: translate(0px, -700px);
+
+}
+
+.plane {
     position: fixed;
     margin-left: auto;
     margin-right: auto;
     left: 1000px;
 }
+
