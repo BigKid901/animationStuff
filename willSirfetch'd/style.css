@@ -1,10 +1,15 @@
-img {
-    max-width:1000px;
-    height: auto;
+div {
+    width: 1280px;
+    height: 720px;
+    border: 100px ridge black;
+    background-image: url("Sirfeitch'd on Sirfeitch'd action.jpg");
+    background-size: 1280px 720px;
+    transition: all 10s ease;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.Sirfeitchd:hover {
-    transform-origin: 425px 187px;
-    /*transition: transform 2s;*/
-    transform: scale(4);
+div:hover{
+    background-size: 145000px 80600px;
+    background-position: -61500px -27000px;
 }
