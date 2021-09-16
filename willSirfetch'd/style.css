@@ -4,12 +4,12 @@ div {
     border: 100px ridge black;
     background-image: url("Sirfeitch'd on Sirfeitch'd action.jpg");
     background-size: 1280px 720px;
-    transition: all 10s ease;
+    transition: all 50s ease;
     margin-left: auto;
     margin-right: auto;
 }
 
 div:hover{
-    background-size: 145000px 80600px;
-    background-position: -61500px -27000px;
+    background-size: 1450000px 806000px;
+    background-position: -617000px -271000px;
 }
